@@ -1,0 +1,40 @@
+@font-face {
+  font-family: "Montserrat";
+  src: url("../fonts/Montserrat-Regular.ttf");
+  font-style: normal;
+  font-display: swap;
+}
+:root {
+  --primary-color: #8f0101;
+  --secondary-color: #b81515;
+
+  --background-primary-color: #ffffff;
+  --background-secondary-color: #f5f5f5;
+  --background-tertiary-color: #000000;
+
+  --text-primary-color: #222222;
+  --text-secondary-color: #ffffff;
+
+  --titles-weights: 700;
+  --text-weights: 400;
+  --menu-text-weights: 500;
+}
+
+* body,
+img,
+h1,
+p,
+fieldset,
+input,
+select,
+textarea,
+button {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+h1 {
+  font-family: "Montserrat", sans-serif;
+  font-weight: var(--titles-weights);
+  color: var(--primary-color);
+}
