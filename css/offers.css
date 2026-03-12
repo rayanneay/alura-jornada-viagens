@@ -1,55 +1,54 @@
 .card {
-    color: var(--text-secondary-color);
-    background-color: black;
-    height: 288px;
-    width: 312px;
-    padding: 24px 16px;
-    border-radius: 16px;
-    text-align: center;
-    box-sizing: border-box;
+  color: var(--text-secondary-color);
+  background-color: black;
+  height: 288px;
+  width: 312px;
+  padding: 24px 16px;
+  border-radius: 16px;
+  text-align: center;
+  box-sizing: border-box;
 }
 .card header {
-    display: block;
-    position: static;
-    padding: 0;
-    margin-bottom: 24px;
+  display: block;
+  position: static;
+  padding: 0;
+  margin-bottom: 24px;
 }
 .card header p {
-    font-size: 20px;
-    font-weight: var(--text-weights);
+  font-size: 20px;
+  font-weight: var(--text-weights);
 }
 .card header h3 {
-    font-size: 40px;
-    font-weight: var(--titles-weights);
-    margin: 8px 0 0;
+  font-size: 40px;
+  font-weight: var(--titles-weights);
+  margin: 8px 0 0;
 }
 .card header span {
-    font-size: 32px;
-    margin-top: 24px;
-    display: inline-block;
+  font-size: 32px;
+  margin-top: 24px;
+  display: inline-block;
 }
 .button {
-    width: 280px;
-    height: 64px;
-    color: var(--text-secondary-color);
-    font-weight: var(--title-weights);
-    font-size: 20px;
-    background-color: var(--secondary-color);
-    border-radius: 16px;
-    display: inline-block;
-    text-decoration: none;
-    line-height: 64px;
-
+  width: 280px;
+  height: 64px;
+  color: var(--text-secondary-color);
+  font-weight: var(--title-weights);
+  font-size: 20px;
+  background-color: var(--secondary-color);
+  border-radius: 16px;
+  display: inline-block;
+  text-decoration: none;
+  line-height: 64px;
 }
 @media screen and (min-width: 1024px) {
-    .card {
-        width: 588px;
-        height: 308px;
-    }
-    .card header {
-        font-size: 48px;
-    }
-    .card header span {
-        font-size: 40px;
-    }
+  .card {
+    width: 588px;
+    height: 308px;
+  }
+  .card header {
+    font-size: 48px;
+  }
+  .card header span {
+    font-size: 40px;
+  }
 }
