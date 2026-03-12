@@ -11,6 +11,8 @@
 .card header {
     display: block;
     position: static;
+    padding: 0;
+    margin-bottom: 24px;
 }
 .card header p {
     font-size: 20px;
@@ -25,4 +27,17 @@
     font-size: 32px;
     margin-top: 24px;
     display: inline-block;
+}
+.button {
+    width: 280px;
+    height: 64px;
+    color: var(--text-secondary-color);
+    font-weight: var(--title-weights);
+    font-size: 20px;
+    background-color: var(--secondary-color);
+    border-radius: 16px;
+    display: inline-block;
+    text-decoration: none;
+    line-height: 64px;
+
 }
