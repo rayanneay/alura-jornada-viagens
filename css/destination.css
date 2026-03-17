@@ -11,8 +11,6 @@
   background-size: cover;
 }
 .destinations .destination-item h4 {
-  font-size: 28px;
-  font-weight: var(--titles-weights);
   text-align: left;
 }
 .destinations .img-tokyo {
@@ -22,8 +20,6 @@
   background: url(../img/osaka-mobile.jpg) no-repeat;
 }
 .destinations p {
-  font-size: 20px;
-  font-weight: var(--text-weights);
   text-align: left;
   margin-bottom: 24px;
   line-height: 32px;
