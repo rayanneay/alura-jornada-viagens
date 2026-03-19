@@ -15,10 +15,6 @@
 .offers-cards .card header {
   margin-bottom: 24px;
 }
-.offers-cards .card header p {
-  font-size: 20px;
-  font-weight: var(--text-weights);
-}
 .offers-cards .card header h3 {
   font-size: 40px;
   font-weight: var(--titles-weights);
