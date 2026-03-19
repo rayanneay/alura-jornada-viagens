@@ -1,0 +1,18 @@
+.banner {
+    background: url(../img/banner-final-mobile.png) no-repeat;
+    height: 400px;
+    background-size: cover;
+    width: 100%;
+}
+@media screen and (min-width: 768px) {
+    .banner {
+        background: url(../img/banner-final-tablet.png) no-repeat;  
+    }
+}
+@media screen and (min-width: 1440px) {
+    .banner {
+        background: url(../img/banner-final-desktop.png) no-repeat;
+        height: 600px; 
+        background-size: cover;
+    }
+}
