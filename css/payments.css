@@ -1,8 +1,4 @@
 
-.payments .content-container {
-    display: flex;
-    flex-direction: column;
-}
 .payments .img-gallery {
     display: grid;
     grid-template-columns: 1fr 1fr;
@@ -42,6 +38,7 @@
 }
 @media screen and (min-width: 1440px) {
     .payments .content-container {
+        display: flex;
         flex-direction: row;
         justify-content: space-between;
     }
@@ -50,5 +47,6 @@
     }
     .payments .content-container .img-gallery {
         width: 790px;
+        margin: 0;
     }
 }
