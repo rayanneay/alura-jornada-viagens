@@ -4,12 +4,6 @@
   align-items: center;
   gap: 24px;
 }
-.destinations .img-tokyo,
-.destinations .img-osaka {
-  width: 100%;
-  height: 368px;
-  background-size: cover;
-}
 .destinations .destination-item h4 {
   text-align: left;
 }
@@ -18,6 +12,12 @@
 }
 .img-osaka {
   background: url(../img/osaka-mobile.jpg) no-repeat;
+}
+.destinations .img-tokyo,
+.destinations .img-osaka {
+  width: 100%;
+  height: 368px;
+  background-size: cover;
 }
 .destinations p {
   text-align: left;

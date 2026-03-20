@@ -8,6 +8,11 @@
     box-sizing: border-box;
     flex-direction: column;
 }
+.footer-content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
 .logo-footer {
     display: inline-block;
     margin-bottom: 16px;
@@ -37,7 +42,7 @@
         padding: 32px 60px;
         color: var(--text-secondary-color);
     }
-    .main.footer .footer-social {
+    .main-footer .footer-social {
         margin-top: 32px;
     }
 }
@@ -49,6 +54,7 @@
     }
     .main-footer .footer-content {
         text-align: left;
+        align-items: flex-start;
     }
     .main-footer .footer-social {
         width: 165px;
