@@ -44,6 +44,9 @@ input[type="checkbox"]:checked ~ nav {
   text-decoration: none;
   font-weight: var(--menu-text-weights);
 }
+.pacotes .list-links a.active{
+    text-decoration: underline;
+}
 @media screen and (min-width: 768px) {
   .navigation-menu {
     margin-top: 0;

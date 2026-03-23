@@ -18,3 +18,23 @@
         background-size: cover;
     }
 }
+.pacotes .banner {
+    background: url(../img/banner-pacotes-mobile.png) no-repeat;
+    height: 400px;
+    background-size: cover;
+    width: 100%;
+    margin-bottom: 0;
+}
+@media screen and (min-width: 768px) {
+    .pacotes .banner {
+        background: url(../img/banner-pacotes-tablet.png) no-repeat;  
+        background-size: cover;
+    }
+}
+@media screen and (min-width: 1440px) {
+    .pacotes .banner {
+        background: url(../img/banner-pacotes-desktop.png) no-repeat;
+        height: 600px; 
+        background-size: cover;
+    }
+}

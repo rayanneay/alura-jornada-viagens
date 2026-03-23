@@ -50,3 +50,48 @@
         margin: 0;
     }
 }
+.pacotes .payments h3 {
+    font-size: 40px;
+}
+.pacotes .payments h4 {
+    font-size: 28px;
+}
+.payments .text-content .button {
+    width: 312px;
+}
+.payments .img-gallery .img-1 .img-2{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 24px;
+    height: 254px;
+    margin-top: 24px;
+    width: 100%;
+}
+.payments .content-container .img-gallery .img-1 {
+    background: url(../img/payments-pacotes-1-mobile.png);
+    background-size: cover;
+}
+.payments .content-container .img-gallery .img-2 {
+    background: url(../img/payments-pacotes-2-mobile.png);
+    background-size: cover;
+}
+.payments .content-container .img-gallery .img-3 {
+    background: url(../img/payments-pacotes-3-mobile.png);
+    background-size: cover;
+    grid-column: span 2;
+}
+@media screen and (min-width: 768px) {
+    .payments .content-container .img-gallery .img-1 {
+    background: url(../img/payments-pacotes-1-tablet.png);
+    background-size: cover;
+}
+.payments .content-container .img-gallery .img-2 {
+    background: url(../img/payments-pacotes-2-tablet.png);
+    background-size: cover;
+}
+.payments .content-container .img-gallery .img-3 {
+    background: url(../img/payments-pacotes-3-tablet.png);
+    background-size: cover;
+    grid-column: span 2;
+}
+}
